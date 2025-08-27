@@ -10,7 +10,7 @@ In principle, one can use dynamic programming to form MSAs. We can archive such 
 
 ### Iterative Approaches as a Practical Alternative
 
-Given the inefficiencies of dynamic programming for MSAs, bioinformaticians have turned to heuristics that mimic the behaviour of full dynamic programming. Particularly iterative approaches, such as progressive alignment. These methods simplify the alignment process by breaking it down into manageable steps. Progressive alignment, for instance, first evaluate the pairwise similarities between the sequences by computing their pairwise alignments, then iteratively aligns sequences according to the witch sequences that are most similar. This reduces the computational burden and allows for the processing of large datasets in a reasonable time frame.
+Given the inefficiencies of dynamic programming for MSAs, bioinformaticians have turned to heuristics that mimic the behaviour of full dynamic programming. Particularly iterative approaches, such as progressive alignment. These methods simplify the alignment process by breaking it down into manageable steps. Progressive alignment, for instance, first evaluate the pairwise similarities between the sequences by computing their pairwise alignments, then iteratively aligns sequences according to which sequences that are most similar. This reduces the computational burden and allows for the processing of large datasets in a reasonable time frame.
 
 ## Progressive Alignments
 
